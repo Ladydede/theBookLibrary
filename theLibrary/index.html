@@ -7,14 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Book Library</h1>
-        <input type="text" id="search-input" placeholder="Search for books...">
-        <button id="search-button">Search</button>
+   
+    <div class="main-container">
 
-        <div id="book-list"></div>
-        <div id="book-details"></div>
+        <nav class="sidebar">
+            <h1>bookBurst</h1>
+            <ul>
+                
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Library Events</a></li>
+                
+            </ul>
+        </nav>
+       
+        <div class="container">
+           <div class="intro">
+            <h2>welcome!</h2>
+            <p>Explore your world of books with us.</p>
+           </div>
+           
+            <input type="text" id="search-input" placeholder="Search for books...">
+            <button id="search-button">Search</button>
+    
+            <div id="book-list"></div>
+            <div id="book-details"></div>
+
+
+            <div class="categories">
+                <!-- Book Results Section -->
+                <section id="clasics">
+                    <img src="" alt="">
+                   <h3>Classics Revisited</h3>
+                   <div id="bookList" class="book-list"></div>
+               </section>
+               
+               <!-- Reserved Books -->
+               <section>
+                <img src="" alt="">
+                   <h3>Underated Germs</h3>
+                   <div id="underated" class="book-list"></div>
+               </section>
+               
+               <!-- Favorite Authors -->
+               <section>
+                <img src="" alt="">
+                   <h3>Short Reads</h3>
+                   <div id="shorts"></div>
+               </section>
+               
+               <!-- Populular Reads-->
+                <section>
+                    <img src="" alt="">
+                   <h3>Popular Reads</h3>
+                   <div id="popularReads"></div>
+               </section>
+               </div>
+
+        </div>
+
     </div>
+
+    
 
     <script src="app.js"></script>
 </body>
