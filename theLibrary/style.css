@@ -3,14 +3,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #fed8a6;
 }
 
 .container {
+    margin-left: 15%;
+    margin-top: 5%;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+}
+
+.main-container {
+    display: flex;
 }
 
 #search-input {
@@ -36,12 +42,57 @@ body {
 
 .book-item img {
     width: 100%;
-    height: auto;
+    height: 80%;
 }
+
+.intro {
+    margin-top: 0px;
+    padding: 30px;
+    background-color: #92ada4;
+    color: peachpuff;
+}
+
 
 #book-details {
     margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #e9d7c0;
+    border: 0px solid;
+
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #92ada4;
+    color: peachpuff;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+
+.sidebar h1 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.categories {
+    display: flex;
+    gap: 50px;
+    color: #3d281c;
+    justify-content: center;
 }
