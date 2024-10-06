@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Library</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
    
@@ -12,11 +13,16 @@
 
         <nav class="sidebar">
             <h1>bookBurst</h1>
+
+            <h4>Genres</h4>
             <ul>
                 
-                <li><a href="#">Genres</a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Library Events</a></li>
+                <li><a href="#">Novels</a></li>
+                <li><a href="#">Self-Help</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Poetry</a></li>
+                <li><a href="#">Cookbooks</a></li>
+                <li><a href="#">Travel</a></li>
                 
             </ul>
         </nav>
@@ -25,6 +31,7 @@
            <div class="intro">
             <h2>welcome!</h2>
             <p>Explore your world of books with us.</p>
+            <p>Quote: Reading is to the Mind, what Exercise is to the Body. ~Anonymous~</p>
            </div>
            
             <input type="text" id="search-input" placeholder="Search for books...">
@@ -36,31 +43,75 @@
 
             <div class="categories">
                 <!-- Book Results Section -->
-                <section id="clasics">
-                    <img src="" alt="">
+               
                    <h3>Classics Revisited</h3>
-                   <div id="bookList" class="book-list"></div>
-               </section>
+                <section id="clasics">
+                    <div>
+                        <img src="./images/pride-and-prejudice.jpg" alt="">
+                        <p>Pride and Prejudice by Jane Austine</p>
+                    </div>
+                    <div>
+                        <img src="./images/jane-eyre.jpg" alt="">
+                        <p>Jane Eyre by Charlotte Bronte</p>
+                    </div>
+                    <div>
+                        <img src="./images/little-women.jpg" alt="">
+                        <p>Little Women by Louisa May Alcott</p>
+                    </div>
+                    <div>
+                        <img src="./images/atonement.jpg" alt="">
+                        <p>Atonement by Ian Mcewan</p>
+                    </div> 
+                </section>
                
                <!-- Reserved Books -->
-               <section>
-                <img src="" alt="">
-                   <h3>Underated Germs</h3>
-                   <div id="underated" class="book-list"></div>
+               
+                   <h3>Underrated Germs</h3>
+                <section id="Underrated">
+                   <div>
+                       <img src="./images/Anna Karenina.jpg" alt="">
+                       <p>Anna Karenina by Leo Tolstoy</p>
+                   </div>
+
+                   <div>
+                       <img src="./images/the secret history.jpg" alt="">
+                       <p>The Secret History by Donna Tartt</p>
+                   </div>
+
+                   <div>
+                       <img src="./images/of mice and men.jpg" alt="">
+                       <p>of Mice and Men by John Steinbeck</p>
+                   </div>
+
+                   <div>
+                       <img src="./images/gone girl.jpg" alt="">
+                       <p>Gone Girl by Gillian Flynn</p>
+                   </div> 
                </section>
                
                <!-- Favorite Authors -->
-               <section>
-                <img src="" alt="">
-                   <h3>Short Reads</h3>
-                   <div id="shorts"></div>
-               </section>
-               
-               <!-- Populular Reads-->
-                <section>
-                    <img src="" alt="">
+              
                    <h3>Popular Reads</h3>
-                   <div id="popularReads"></div>
+                <section id="Popular">
+                    <div>
+                       <img src="./images/da vinci code.jpg" alt="">
+                       <p>Da Vinci Code by Dan Brown</p>
+                    </div>
+                  
+                    <div>
+                       <img src="./images/Harry potter.jpg" alt="">
+                       <p>Harry Potter by J.K Rawlings</p>
+                    </div>
+                   
+                    <div>
+                       <img src="./images/gone with the wind.jpg" alt="">
+                       <p>Gone with the Wind by Margaret Mitchell</p>
+                    </div>
+                   
+                    <div>
+                       <img src="./images/the diary of a young girl.jpg" alt="">
+                       <p>Diary of a Young Girl by Anne Frank</p>     
+                    </div>       
                </section>
                </div>
 
