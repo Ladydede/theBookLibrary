@@ -1,0 +1,181 @@
+header {
+    width: 100%;
+    background-color: #592828;
+    height: 10vh;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    margin-left: 20%;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 30%;
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+header ul li a {
+    color: #d8d7d9;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #bf7b75;
+    height: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #592828;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    margin: 0%;
+    top: 0;
+}
+
+.sidebar h1 {
+    font-size: 350%;
+    font-style: italic;
+    font-family: serif;
+    color: #d8d7d9;
+    margin-top: 0%;
+}
+
+.container {
+    top: 50%;
+   
+    
+}
+
+.container img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+    display: block;
+}
+
+#list1 {
+    display: flex;
+    gap: 50px;
+    margin-left: 27%;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50px;
+    text-align: center;
+}
+
+#list2 {
+    display: flex;
+    gap: 50px;
+    margin-left: 27%;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#list3 {
+    display: flex;
+    gap: 50px;
+    margin-left: 27%;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#list4 {
+    display: flex;
+    gap: 50px;
+    margin-left: 27%;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#list5 {
+    display: flex;
+    gap: 50px;
+    margin-left: 27%;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.cat a {
+    margin-left: 55%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d8d7d9;
+    top: 10%; 
+}
+
+.container h2 {
+    margin-top: 7%;
+    margin-left: 55%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d8d7d9; 
+    
+}
+
+ /* CSS for the book popup */
+.popup {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    z-index: 100;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style the book image and li */
+section li {
+    list-style-type: none;
+    margin: 15px 0;
+    cursor: pointer;
+    /*position: relative;
+    display: flex;*/
+    align-items: center;
+}
+
+section li img {
+    width: 250px;
+    height: 75px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+section li strong {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Style the container to make sure the pop-up stays within bounds */
+.container {
+   /* position: relative;*/
+    padding: 20px;
+}
